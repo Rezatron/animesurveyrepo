@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>anime survey </title>
+<link rel="stylesheet" type="text/css" href="survey.css" />
+
+<section id="intro">
+<h1 id="title">Anime Survey</h1>
+<p id="description">Thank you for taking the time to help us improve the platform  </p>
+<img src="https://wallpapercave.com/wp/wp8076573.png" alt="anime-pic" id="anime-pic">
+</section>
+<form id="survey-form">
+  <fieldset id="one">
+  <label id="name-label"> Name:<input id="name" type="text" placeholder="Itachi" required /> </label>
+  <br>
+<label id="last-name-label"> Last name:<input id="last-name" type="text" placeholder="Uchiha" required /> </label>
+<br>
+  <label id="email-label"> Email:<input id="email" type="email" placeholder="Akatsukimember@gmail.com"required /> </label>
+<br>
+  <label id="number-label">Age:<input id="number" type="number" name="age" min="18" max="120" placeholder="21" required></label>
+
+</fieldset>
+
+<fieldset class="dropdown">
+  <div for="dropdown" class="select">
+    How often do you watch anime?</div>
+    <select id="dropdown" name="dropdown">
+      <option value="1" selected="selected">I dont</option>
+      <option value="2"> Sometimes</option>
+      <option value="3"> I watch it all the time</option>
+      <option value="4"> I watch hentai</option>
+     
+  </select>
+  </label>  
+</fieldset>
+
+<fieldset id="fave">
+  <h3>What is your favourite anime? </h3>
+   <span><label for="HunterxHunter"><input id="Hunterxhunter" type="radio" name="Fave-anime" value="HunterxHunter"class="radio" />HunterxHunter 
+   </label></span>
+
+  <label for="Attack on titan"><input id="Attack on titan" type="radio" name="Fave-anime" value="Attack on titan"class="radio"/>Attack on titan</label>
+
+  <label for="My Hero Academia"><input id="My Hero Academia" type="radio" name="Fave-anime" value="My Hero Academia"class="radio"/>My Hero Academia</label>
+  <br>
+
+  <label for="Demon slayer"><input id="Demon Slayer" type="radio" name="Fave-anime" value="Demon slayer"class="radio"/>Demon Slayer</label>
+
+  <label for="One Piece"><input id="One Piece" type="radio" name="Fave-anime" value="One Piece"class="radio"/>One Piece</label>
+
+  <label for="Bleach"><input id="Bleach" type="radio" name="Fave-anime" value="Bleach"class="radio"/>Bleach</label>
+
+
+  <label for="Dragonball-Z"><input id="Dragonball-Z" type="radio" name="Fave-anime" value="Dragonball-Z"class="radio"/>Dragonball-Z</label>
+
+</fieldset>
+
+<fieldset id="bot">
+  <h7>Are you a Human? </h7>
+  <br>
+  <br>Yes<label for="human?" name="human??">
+    <input id="human?" type="checkbox" required name="human?" value="yes"/>
+   <br>
+    No<label for="human?" name="human?">
+    <input id="human?" type="checkbox" name="human?" value="no"/>
+</fieldset>
+
+<fieldset>
+  <label for="suggestion">Do you have any suggestions?
+    <textarea id="suggestion" name="suggestion" rows="3" cols="30" placeholder="Random tings here"></textarea>
+</fieldset>
+
+
+
+        </label>
+<input type="submit" value="Submit" id="submit"/>
+</form>

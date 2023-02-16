@@ -1,0 +1,104 @@
+* {
+  font-family: Helvetica
+}
+h1{
+  left: 300px
+}
+#anime-pic{
+  height: ;
+  width: ;
+  border-left: ;
+  left: -600px;
+  position: absolute;
+  z-index: -1
+}
+section{
+  position: relative;
+  
+}
+
+#intro{
+  right: 50px;
+  text-align: center
+}
+
+#one{
+  text-align: ;
+  font-size:15;
+  margin: ;
+  background-color: transparent;
+  max-width: 40%;
+  z-index: -2;
+  float: 
+  
+  
+}
+input{
+  width:150%;
+  padding: 5;
+  margin: 2; 
+}
+.dropdown{
+  overflow: hidden;
+  color:  ;
+  position: relative;
+  width: 
+}
+
+
+
+.radio{
+  margin: 5;
+  accent-color: red;
+  display: ;
+  
+}
+label:hover { cursor: pointer; }
+
+
+
+.radio > span
+{
+    white-space: nowrap;
+    text-align: 
+}
+body{
+  background: linear-gradient(white,white)
+}
+
+ fieldset{
+  
+  max-width: 50%;
+  padding: 10px;
+  margin: ;
+  border: none;
+  align: ;
+  position: static;
+  width: 100%;
+  background-color: #e5f5f8;
+  border-radius: 10px;
+  font-family: Avenir;
+  padding: 20px;
+  width: 300px;
+  opacity: 0.9;
+  
+}
+#bot{  
+}
+#submit{
+  max-width:40%;
+  padding: 15px;
+  width:100%;
+  font-size: 1.5em;
+  background-color: #af0000;
+  color: #fff ;
+  border: 8px double #860b0b
+}
+#submit:hover{
+  background-color: #860b0b;
+  border: 8px double #af0000;
+}
+#submit:focus{
+  background-color: red;
+  border: 8px double #860b0b
+}
